@@ -50,20 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBLw-zq6xl3QhaKWCc2WBsEIgg6X3chzAk',
-    appId: '1:398115605733:android:9bc84c0be3e50f0a68180c',
-    messagingSenderId: '398115605733',
-    projectId: 'nogle-push',
-    storageBucket: 'nogle-push.firebasestorage.app',
+    apiKey: 'AIzaSyAryZJ9QuRyzuitd9yXO1iJg_cNV7MPy24',
+    appId: '1:516817177516:android:593b5bf9387b2563548809',
+    messagingSenderId: '516817177516',
+    projectId: 'app-contel-2',
+    storageBucket: 'app-contel-2.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC-SBx8r93NBzr2l9LGwTTiNRgo3qB3csE',
-    appId: '1:398115605733:ios:15e5825a2405844368180c',
-    messagingSenderId: '398115605733',
-    projectId: 'nogle-push',
-    storageBucket: 'nogle-push.firebasestorage.app',
-    iosBundleId: 'br.com.falevoxappios',
+    apiKey: 'AIzaSyDVeCQLivGlkfWkKg3k7e535Mb3nicw1ls',
+    appId: '1:516817177516:ios:016001618091874f548809',
+    messagingSenderId: '516817177516',
+    projectId: 'app-contel-2',
+    storageBucket: 'app-contel-2.firebasestorage.app',
+    iosBundleId: 'br.com.netcelmobile',
   );
-
 }
