@@ -1,0 +1,45 @@
+name: netcel_app
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 2.3.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  contel_white_label_app:
+    # path: ../contel_white_label_app/
+    git:
+      url: https://github.com/operadoracontel/contel_white_label_app
+      ref: 2.3.0
+
+  firebase_core:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: 0.14.4
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/launcher_icon.png"
+  image_path_ios: "assets/launcher_icon.png"
+  adaptive_icon_background: "#0000FF" # Cor de fundo para Android (Adaptive Icons)
+  adaptive_icon_foreground: "assets/launcher_icon.png"
+  background_color_ios: "#0000FF" # Cor de fundo para iOS
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
